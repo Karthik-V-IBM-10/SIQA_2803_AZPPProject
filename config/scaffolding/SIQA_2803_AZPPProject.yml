@@ -15,6 +15,11 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+- name: JMS2waySSL
+  gitServerName: SIQAPsur
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
 services:
 - serviceName: project.siqa_2803_azpp.integrations:SIQAAdapterFlow
   packages:
