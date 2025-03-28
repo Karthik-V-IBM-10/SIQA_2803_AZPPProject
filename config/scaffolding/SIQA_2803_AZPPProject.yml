@@ -11,46 +11,14 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.siqa_2803_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
-  packages:
-  - name: SIQA_2803_AZPPProject
-    version: "1.0"
-- serviceName: project.siqa_2803_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: SIQA_2803_AZPPProject
-    version: "1.0"
 - serviceName: project.siqa_2803_azpp.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_2803_AZPPProject
     version: "1.0"
-- serviceName: project.siqa_2803_azpp.integrations:Sum
+- serviceName: project.siqa_2803_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test
   packages:
   - name: SIQA_2803_AZPPProject
     version: "1.0"
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2028
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2028
-- serviceName: project.siqa_2803_azpp.integrations:deepclonetest
-  packages:
-  - name: SIQA_2803_AZPPProject
-    version: "1.0"
-- serviceName: pub.string:stringToBytes
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2028
-- serviceName: pub.utils:deepClone
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2028
-- serviceName: pub.string:bytesToString
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2028
 configurationVariables:
   ? artConnection.SIQA_2803_AZPPProject.project.siqa_2803_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
   : "0"
